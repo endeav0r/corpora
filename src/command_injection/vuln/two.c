@@ -1,3 +1,8 @@
+/*
+* Must alias buf, understand command taints buf through snprintf.
+* Stack variable.
+*/
+
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
