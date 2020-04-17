@@ -19,3 +19,6 @@ mkdir -p /build/command_injection/vuln
 clang -g ${SRC_DIR}/command_injection/vuln/one.c -o /build/command_injection/vuln/one
 clang -g ${SRC_DIR}/command_injection/vuln/two.c -o /build/command_injection/vuln/two
 clang -g ${SRC_DIR}/command_injection/vuln/three.c -o /build/command_injection/vuln/three
+
+mkdir -p /build/symex
+clang -g ${SRC_DIR}/symex/one.c -o /build/symex/one
